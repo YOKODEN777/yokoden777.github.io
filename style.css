@@ -1,0 +1,110 @@
+/* common */
+body {
+  margin: 0;
+}
+h1,h2 {
+  font-weight: normal;
+}
+header h1, h2, p {
+  margin:0;
+  padding:0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+/* header */
+
+header {
+  background-color: #efefef;
+}
+
+.taro {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+header .container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 32px  ;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  /* font-weight: normal; */
+  font-size: 24px;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul {
+  display: flex;
+  margin: 0px 0px ;
+  padding: 0;
+}
+
+header .container ul li img {
+  width: 20px;
+  height: 20px;
+}
+header ul li + li {
+  margin-left: 24px;
+}
+
+/* .right {
+  margin-left: 32px;
+} */
+
+header .container div + div {
+  margin-left: 32px;
+}
+
+/* main */
+main .container{
+  width: 400px;
+  margin:0 auto;
+}
+
+main h1  {
+  font-size:36px;
+  /* font-weight: normal; */
+  text-align: center;
+  padding: 60px;
+}
+main h2 {
+  font-size: 20px;
+  /* font-weight: normal; */
+  margin-top: 16px;
+}
+
+main .container img {
+  width: 400px;
+  height: 225px;
+  border-radius: 15px;
+}
+main p  {
+  line-height: 1.8;
+  margin-top: 16px;
+}
+
+section + section {
+  margin-top:60px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  margin:60px auto; 
+  color:#b1b1b1;
+  background-color: gray;
+}
